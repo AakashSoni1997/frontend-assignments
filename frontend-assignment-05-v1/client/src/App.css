@@ -1,0 +1,13 @@
+.main-wrapper{
+    box-shadow: 2px 2px lightgray;
+}
+.header{
+    padding: 20px;
+}
+.header >button {
+            background-color: #40b2ea;
+            padding: 8px 10px;
+            color: white;
+            border-radius: 2px;
+            border: none;
+}

@@ -1,0 +1,109 @@
+:root {
+  --blue: #5e72e4;
+  --indigo: #5603ad;
+  --purple: #8965e0;
+  --pink: #f3a4b5;
+  --red: #f5365c;
+  --orange: #fb6340;
+  --yellow: #ffd600;
+  --green: #2dce89;
+  --teal: #11cdef;
+  --cyan: #2bffc6;
+  --gray: #8898aa;
+  --gray-dark: #32325d;
+  --light: #ced4da;
+  --lighter: #e9ecef;
+  --primary: #5e72e4;
+  --secondary: #f7fafc;
+  --success: #2dce89;
+  --info: #11cdef;
+  --warning: #fb6340;
+  --danger: #f5365c;
+  --light: #adb5bd;
+  --dark: #212529;
+  --default: #172b4d;
+  --white: #fff;
+  --neutral: #fff;
+  --darker: #000;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: Open Sans, sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+.bg-red {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+.bg-orange {
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+.bg-green {
+  background-color: var(--green);
+  border-color: var(--green);
+}
+.bg-blue {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.bg-danger {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
+.bg-warning {
+  background-color: var(--warning);
+  border-color: var(--warning);
+}
+
+.bg-success {
+  background-color: var(--success);
+  border-color: var(--success$);
+}
+
+.bg-info {
+  background-color: var(--info);
+  border-color: var(--info);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.bg-default {
+  background-color: var(--default);
+  border-color: var(--default);
+}
+
+.cal {
+  display: block;
+}
+
+.fc .fc-event-main .fc-event-title {
+  padding: 0.3rem;
+  display: block;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.7rem;
+  font-family: var(--font-family-monospace);
+}

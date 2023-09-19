@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+font-family: sans-serif;
+}
+.App{
+display: flex;
+}
+.left-section{
+  width: 100%;
+}
+.right-section{
+  background-color: lightgray;
+  width: 100%;
+}
+.card__container{
+  overflow-y: scroll;
+  height: 100vh;
+}
+.left-section__head >table{
+  width: 100%;
+
+}
+.left-section__head{
+  height: 60%;
+}
+.left-section__bottom{
+  height: 30%;
+}
+.left-section__button > button{
+width: 50%;
+height: 10%;
+}
